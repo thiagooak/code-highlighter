@@ -1,0 +1,25 @@
+{
+  "name": "code-highlighter",
+  "version": "0.1.0",
+  "description": "A syntax highlighter",
+  "keywords": [
+    "syntax",
+    "highlight",
+    "CSS Custom Highlight API"
+  ],
+  "homepage": "https://github.com/thiagooak/code-highlighter#readme",
+  "bugs": {
+    "url": "https://github.com/thiagooak/code-highlighter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagooak/code-highlighter.git"
+  },
+  "license": "MIT",
+  "author": "Thiago Carvalho <thiago.oak@gmail.com>",
+  "type": "module",
+  "main": "code-highlighter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
