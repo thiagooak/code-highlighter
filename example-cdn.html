@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@thiago.oak/code-highlighter@latest/prettylights.css"
+        />
+    </head>
+    <body>
+        <h2>Read-only</h2>
+        <code-highlighter language="clojure" spellcheck="false"
+            >(defn greet [name] (str "Hello, " name) )</code-highlighter
+        >
+
+        <h2>Editable</h2>
+        <code-highlighter
+            language="clojure"
+            contenteditable="plaintext-only"
+            spellcheck="false"
+            oninput="this.highlight()"
+            >(defn greet [name] (str "Hello, " name) )</code-highlighter
+        >
+
+        <script src="https://cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-core.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-clojure.min.js"></script>
+        <script
+            type="module"
+            src="https://cdn.jsdelivr.net/npm/@thiago.oak/code-highlighter@latest/code-highlighter.js"
+        ></script>
+    </body>
+</html>
