@@ -1,5 +1,5 @@
 {
-  "name": "code-highlighter",
+  "name": "@thiago.oak/code-highlighter",
   "version": "0.1.1",
   "description": "A syntax highlighter",
   "keywords": [
