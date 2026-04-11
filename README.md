@@ -6,8 +6,6 @@
 
 A lightweight `<code-highlighter>` custom element that provides syntax highlighting without DOM mutation, using the CSS Custom Highlight API
 
-[Demo](https://thiagooak.github.io/code-highlighter/example-cdn.html)
-
 ## Features
 
 - No DOM mutation for highlighting (no `<span>` injection)
@@ -34,6 +32,7 @@ A lightweight `<code-highlighter>` custom element that provides syntax highlight
 ```
 
 ### Simple Editor
+[demo](https://thiagooak.github.io/code-highlighter/example-cdn.html)
 ```html
 <code-highlighter
   language="clojure"
