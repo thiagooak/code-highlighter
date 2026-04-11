@@ -61,7 +61,7 @@ Recompute syntax highlighting
 
 ## Installation
 
-1. Add Prism core and any languages you need
+1. Add [Prism](https://prismjs.com/) core and any languages you need
 
 ```html
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-core.min.js"></script>
@@ -84,18 +84,7 @@ Recompute syntax highlighting
 
 ## Styling
 
-Highlighting is powered by `::highlight()` selectors. Your [theme](./prettylights.css) defines them
-
-Example:
-```css
-::highlight(keyword) {
-  color: #cf222e;
-}
-
-::highlight(string) {
-  color: #0a3069;
-}
-```
+Highlight colors are defined with `::highlight()` selectors. Your [theme](./prettylights.css) sets them
 
 ## Credits
 
