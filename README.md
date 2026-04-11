@@ -6,6 +6,8 @@
 
 A lightweight `<code-highlighter>` custom element that provides syntax highlighting without DOM mutation, using the CSS Custom Highlight API
 
+[Demo](https://thiagooak.github.io/code-highlighter/example-cdn.html)
+
 ## Features
 
 - No DOM mutation for highlighting (no `<span>` injection)
@@ -17,10 +19,6 @@ A lightweight `<code-highlighter>` custom element that provides syntax highlight
 
 - Requires a modern browser with [CSS Custom Highlight API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Custom_Highlight_API) support
 - Prism must be loaded before `<code-highlighter>` runs
-
-## Demo
-
-@TODO
 
 ## Usage
 
