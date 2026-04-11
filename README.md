@@ -20,6 +20,8 @@ A lightweight `<code-highlighter>` custom element that provides syntax highlight
 
 ## Usage
 
+[Full Example Page](https://thiagooak.github.io/code-highlighter/example-cdn.html)
+
 ### Read-only
 
 ```html
@@ -32,7 +34,7 @@ A lightweight `<code-highlighter>` custom element that provides syntax highlight
 ```
 
 ### Simple Editor
-[demo](https://thiagooak.github.io/code-highlighter/example-cdn.html)
+
 ```html
 <code-highlighter
   language="clojure"
