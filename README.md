@@ -1,8 +1,8 @@
 # <code-highlighter>
 
-![npm](https://img.shields.io/npm/v/@thiago.oak/code-highlighter)
-![jsDelivr](https://img.shields.io/jsdelivr/npm/hm/@thiago.oak/code-highlighter)
-![license](https://img.shields.io/npm/l/@thiago.oak/code-highlighter)
+[![npm](https://img.shields.io/npm/v/@thiago.oak/code-highlighter)](https://www.npmjs.com/package/@thiago.oak/code-highlighter)
+[![jsDelivr](https://img.shields.io/jsdelivr/npm/hm/@thiago.oak/code-highlighter)](https://www.jsdelivr.com/package/npm/@thiago.oak/code-highlighter)
+[![license](https://img.shields.io/npm/l/@thiago.oak/code-highlighter)](./LICENSE)
 
 A lightweight `<code-highlighter>` custom element that provides syntax highlighting without DOM mutation, using the CSS Custom Highlight API
 
